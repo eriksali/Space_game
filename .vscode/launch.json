@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "addition_move_up_93bcae23",
+            "vmArgs": "--module-path d:/_2022_fall/CSI_2300/javafx-sdk-19/lib --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.media,javafx.swing"
+        }
+    ]
+}
